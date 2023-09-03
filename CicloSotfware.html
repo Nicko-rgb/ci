@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ciclos.css">
+    <title>SOFTWARE</title>
+</head>
+<body>
+    <div class="inicio">
+        <div class="gif">
+            <img src="https://media2.giphy.com/media/dF6JBxWUg88JNqMLBj/200.gif?cid=790b761129g1cnzzlhxqpyodi6p2yd67chckq4lb4hkcu48s&rid=200.gif&ct=g" alt="Gif Binary">
+        </div>
+        <h1>CICLO DE VIDA Y DESARROLLO<br> DE UN SOFTWARE</h1>
+        <button onclick="location.hash = '#intro'">Siguiente</button>
+    </div>
+    <div class="intro" id="intro">
+        <div class="gif">
+            <img src="https://media2.giphy.com/media/dF6JBxWUg88JNqMLBj/200.gif?cid=790b761129g1cnzzlhxqpyodi6p2yd67chckq4lb4hkcu48s&rid=200.gif&ct=g" alt="Gif Binary">
+        </div>
+        <h2>INTRODUCCIÓN</h2>
+        <div class="conten">
+            <p id="demo"></p>
+            <button onclick="location.hash = '#definicion'">Siguiente</button>
+            <button onclick="typeWriter()">Click</button>
+        </div> 
+    </div>
+
+    <div class="definicion" id="definicion">
+        <div class="gif">
+            <img src="https://media2.giphy.com/media/dF6JBxWUg88JNqMLBj/200.gif?cid=790b761129g1cnzzlhxqpyodi6p2yd67chckq4lb4hkcu48s&rid=200.gif&ct=g" alt="Gif Binary">
+        </div>
+        <h2>DEFINICIÓN</h2>
+        <p>_________________________________________________________________________________________________________________________________</p>
+        <div class="conten">
+            <p id="deme"></p>
+                <button onclick="location.hash = '#etapa'">Siguiente</button>
+                <button onclick="typeWrite()">Click</button>
+        </div>
+    </div>
+
+    <div class="etapa" id="etapa">
+
+    </div>
+    <div class="fase">
+
+    </div>
+    <div class="estruc">
+
+    </div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+</body>
+
+<script>
+    var i = 0;
+    var tx = '1.Buenas tardes, profesor y estimados compañeros. Nos sentimos honrado de estar ante ustedes hoy para discutir un tema esencial que tiene gran importancia en el mundo del desarrollo de software: el Ciclo de Vida del Desarrollo de Software (SDLC). Nuestro propósito hoy es informar y definir el SDLC y su papel crucial en el desarrollo de software.'
+    var speed = 25;
+
+   function typeWriter() {
+    if (i < tx.length) {
+      document.getElementById("demo").innerHTML += tx.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  typeWriter();
+  
+
+  var a = 0;
+  var txt = '2. Definición de ciclo de vida de desarrollo de software (SDLC): El ciclo de vida de desarrollo de software, comúnmente conocido como SDLC, es un marco estructurado que describe todo el proceso de planificación, desarrollo y mantenimiento de software. Sirve de guía, asegurando la ejecución de cada fase con precisión y eficiencia. Es un conjunto de actividades que se realizan para crear y mantener el código fuente del programa.'
+  var speed = 20;
+
+  function typeWrite() {
+    if (a < txt.length) {
+      document.getElementById("deme").innerHTML += txt.charAt(a);
+      a++;
+      setTimeout(typeWrite, speed);
+    }
+  }
+  typeWrite();
+
+
+</script>
+</html>

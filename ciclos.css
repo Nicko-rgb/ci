@@ -1,0 +1,164 @@
+body{
+    display: grid;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+/*AJUSTES DE INICIO*/
+.inicio {
+    border: red solid 1px;
+    height: 97vh;
+    margin-bottom: 20px;
+    background-image: url('https://cdn.goconqr.com/uploads/node/image/45660045/desktop_a06397ea-1533-4159-abc0-1ab1b7a1af0e.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.inicio .gif img{
+    position: relative;
+    width: 200px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 80.5%;
+}
+.inicio h1 {
+    color: rgb(194, 24, 24);
+    width: 850px;
+    margin-top: 60vh;
+    margin-left: 30vh;
+    font-size: 50px;
+    text-decoration: underline 1.5px;
+}
+.inicio button {
+    margin-top: 16vh;
+    margin-left: 22px;
+    color: rgb(2, 0, 0);
+    background: rgb(138, 226, 238);
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    font-family: sans;
+}
+.inicio button:hover {
+    background: rgb(122, 11, 72);
+    color: aliceblue;
+    box-shadow: -5px -5px 20px rgba(250, 65, 151, 1);
+}
+
+/*AJUSTES DE INTRODUCCION*/
+.intro {
+    border: red solid 1px;
+    height: 97vh;
+    margin-bottom: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/523/253/original/mobile-app-interface-development-cross-platform-concept-software-program-web-page-design-and-database-processing-vector.jpg');
+    background-position: center;
+    background-size: cover;
+}   
+.intro .gif img {
+    position: relative;
+    width: 150px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 84.5%;
+}
+.intro h2 {
+    color: red;
+    margin: 10%;
+    font-size: 40px;
+    margin-top: 10%;
+    text-decoration: underline 1.5px;
+    letter-spacing: 8px;
+
+}
+.intro .conten {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: -80px;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+.intro .conten button {
+    border-radius: 10px;
+    border: none;
+    margin-top: 3vh;
+    margin-left: 0vh;
+    color: rgb(2, 0, 0);
+    background: rgb(138, 226, 238);
+    font-family: sans;
+    font-size: 16px;
+}
+.intro button:hover {
+    background: rgb(122, 11, 72);
+    color: aliceblue;
+    box-shadow: -5px -5px 20px rgba(250, 65, 151, 1);
+}
+
+/*AJUSTES DE DEFINICION*/
+.definicion {
+    border: red solid 1px;
+    height: 97vh;
+    margin-bottom: 20px ;
+    background-image: url('https://i.pinimg.com/originals/8d/d9/b0/8dd9b0aecfa1aae751e0b0873070e0ac.jpg');
+}
+.definicion .gif img {
+    position: relative;
+    width: 150px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 84.5%;
+}
+.definicion h2 {
+    color :red;
+    margin-left: 25vh;
+    margin-top: 30vh;
+    font-size: 40px;
+    text-decoration: underline 1.5px rgb(255, 0, 0);
+    letter-spacing: 8px;
+}
+.definicion p {
+    margin-top: -35px;
+    text-align: center;
+}
+.definicion  .conten {
+    width: 700px ;
+    margin-left: 10%;
+    font-size: 25px;
+}
+.definicion .conten p {
+    margin-top: 20px;
+    text-align: justify;
+}
+.definicion .conten button {
+    background: rgb(138, 226, 238);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: sans;
+}
+.conten button:hover {
+    background: rgb(122, 11, 72);
+    color: aliceblue;
+    box-shadow: -5px -5px 20px rgba(250, 65, 151, 1);
+}
+
+/*AJUSTES DE ETAPA*/
+.etapa {
+    border: red solid 1px;
+    height: 97vh;
+    margin-bottom: 20px ;
+}
+/*AJUSTES DE FASE*/
+.fase {
+    border: red solid 1px;
+    height: 97vh;
+    margin-bottom: 20px ;
+}
+/*AJUSTES DE ESTRUCTURA*/
+.estruc {
+    border: red solid 1px;
+    height: 97vh;
+    margin-bottom: 20px;
+}
